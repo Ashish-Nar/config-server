@@ -24,3 +24,8 @@ management:
   endpoint:
     health:
       show-details: always
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
